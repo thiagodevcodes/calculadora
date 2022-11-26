@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(255, 115, 0), rgb(255,255,255));
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+  width: 350px; 
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(255, 115, 0);
+  font-size: 15pt;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.display {
+  font-size: 30pt;
+  color: white;
+  width: 100%;
+  text-align: right;
+  background-color: black;
+  border-radius:  20px 20px 0 0;
+  padding: 20px;
+}
+
+.title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  margin: 20px;
+}
+
+.btn-eq  {
+  border-radius: 0 0 18px 0;
+}
+
+.btn-del {
+  border-radius: 0 0 0 18px;
+}
+
